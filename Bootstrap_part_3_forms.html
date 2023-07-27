@@ -1,0 +1,202 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-widht", initial-scale="1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <title>Bootstap demo</title>
+    </head>
+</html>
+<body>
+    
+    <h2>Form 1</h2>
+    <div class="container">
+        <form>
+    
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" focus>
+              <small class="form-text text-muted">We will not share your email</small>
+            </div>
+
+
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+
+
+            <div class="form-group">
+              <label for="exampleInputFile">File input</label>
+              <input type="file" id="exampleInputFile">
+              <p class="help-block">Example block-level help text here.</p>
+            </div>
+
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox"> Check me out
+              </label>
+            </div>
+
+
+            <button type="submit" class="btn btn-default">Submit</button>
+            
+          </form>
+    </div>
+    <hr>
+    <h2>Form 2 (disabled checkbox and radio)</h2>
+        <form action="get">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value="">
+              Option one is this and that&mdash;be sure to include why it's great
+            </label>
+          </div>
+
+
+          <div class="checkbox disabled">
+              <label for="option2">
+                <input type="checkbox" id="option2" disabled>
+                Option 2 is disabled
+              </label>
+          </div>
+          
+
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>  <!--       Adding checked here will mark this option automatically upon landing and each time the page refreshes-->
+              Option one is this and that&mdash;be sure to include why it's great
+            </label>
+          </div>
+
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              Option two can be something else and selecting it will deselect option one
+            </label>
+          </div>
+          
+
+          <div class="radio disabled">
+              <label for="opyionsradio3">
+                <input type="radio" name="optionsradios" id="optionsradios3" value="option3" disabled>
+                Option 3 is disabled
+              </label>
+          </div>
+        </form>
+      <hr>
+      <h2>Form 3 (inline checkbox and radio)</h2>
+      <form>
+       <div class="container">
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
+        </label>
+
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
+        </label>
+
+        <label class="checkbox-inline">
+          <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
+        </label>
+       </div>
+
+        <div class="container"> 
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
+        </label>
+
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2
+        </label>
+
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3
+        </label>
+        </div>
+      </form>
+
+
+
+
+      <hr>
+      <h2>Select Form</h2>
+      <form>
+        Example
+        <select class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+
+        <br>
+        <label for="exSelect2">Example Multiple Select
+          <select multiple class="form-control" id="exSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </label>
+      </form>
+
+
+
+
+      <hr>
+      <h2>Disabled State and Readonly State</h2>
+      <form action="">
+        <label for="">
+          Example Input Email
+          <input class="form-control" type="text" id="disabledInput" placeholder="Disabled input here..." disabled>
+        </label>
+
+        <br><br>
+        <label for="">Example Input Email Readonly
+            <input class="form-control" type="text" placeholder="Readonly input here…" readonly>
+        </label>
+      </form>
+
+
+
+
+      <hr>
+      <h2>Disabled Fieldset</h2>
+      <form>
+
+        <fieldset disabled>
+          <div class="form-group">
+            <label for="disabledTextInput">Disabled input</label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Disabled input">
+          </div>
+
+
+          <div class="form-group">
+            <label for="disabledSelect">Disabled select menu</label>
+            <select id="disabledSelect" class="form-control">
+              <option>Disabled select</option>
+            </select>
+          </div>
+
+
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Can't check this
+            </label>
+          </div>
+
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </fieldset>
+        </form>
+
+        <hr>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+</html>
